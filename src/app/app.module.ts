@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { AlphaListPage } from '../pages/alpha-list/alpha-list';
 import { IonAlphaScrollModule } from 'ionic2-alpha-scroll';
+import { DynamicComponentModule } from 'ng-dynamic';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { IonAlphaScrollModule } from 'ionic2-alpha-scroll';
   ],
   imports: [
     IonicModule.forRoot(MyApp),
-    IonAlphaScrollModule
+    IonAlphaScrollModule,
+    DynamicComponentModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

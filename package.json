@@ -4,13 +4,8 @@
   "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
-    "build": "ionic-app-scripts build",
-    "watch": "ionic-app-scripts watch",
-    "serve:before": "watch",
-    "emulate:before": "build",
-    "deploy:before": "build",
-    "build:before": "build",
-    "run:before": "build"
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {
     "@angular/common": "2.1.1",
@@ -25,7 +20,7 @@
     "@ionic/storage": "1.1.6",
     "ionic-angular": "2.0.0-rc.2",
     "ionic-native": "2.2.3",
-    "ionic2-alpha-scroll": "file:///Users/rossmartin/git/ionic2-alpha-scroll",
+    "ionic2-alpha-scroll": "^1.0.7",
     "ionicons": "3.0.0",
     "rxjs": "5.0.0-beta.12",
     "zone.js": "0.6.21"

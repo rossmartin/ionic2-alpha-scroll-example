@@ -1,7 +1,10 @@
 import { platformBrowser } from '@angular/platform-browser';
 import { enableProdMode } from '@angular/core';
+import { COMPILER_PROVIDERS } from '@angular/compiler';
 
 import { AppModuleNgFactory } from './app.module.ngfactory';
 
 enableProdMode();
-platformBrowser().bootstrapModuleFactory(AppModuleNgFactory);
+platformBrowser([
+  COMPILER_PROVIDERS
+]).bootstrapModuleFactory(AppModuleNgFactory);
