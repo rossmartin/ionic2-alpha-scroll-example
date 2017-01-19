@@ -6,9 +6,9 @@ This is an Ionic 2 app that shows how to use the [ionic2-alpha-scroll](https://g
 
 
 ## How to try the app
-1. Install the the latest beta version of the Ionic CLI:
+1. Install the the latest version of the Ionic CLI:
     ```
-    npm install -g ionic@beta
+    npm install -g ionic
     ```
 
 1. Clone this repository
