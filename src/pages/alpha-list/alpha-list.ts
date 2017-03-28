@@ -30,9 +30,6 @@ export class AlphaListPage {
   assignBreeds() {
     this.breeds = [
       {
-        "$t": "@JackRussell"
-      },
-      {
         "$t": "Affenpinscher"
       },
       {
